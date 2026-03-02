@@ -1,0 +1,2 @@
+export PS1='[\d]\u@\h'
+[Mon Mar 02]max@sandbox
