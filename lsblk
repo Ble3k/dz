@@ -1,5 +1,1 @@
-NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
-sda      8:0    0   25G  0 disk
-├─sda1   8:1    0    1G  0 part /boot/efi
-└─sda2   8:2    0 23.9G  0 part /
-sr0     11:0    1 50.9M  0 rom
+/boot/efi
