@@ -1,0 +1,16 @@
+Отключение репозитория jammy-security universe:
+
+Способ 1 (классический формат /etc/apt/sources.list):
+Закомментировать строку с jammy-security universe:
+  sudo sed -i 's/^deb \(.*jammy-security.*universe\)/#deb \1/' /etc/apt/sources.list
+
+Способ 2 (формат DEB822, /etc/apt/sources.list.d/ubuntu.sources):
+В блоке с Suites: noble-security (или jammy-security) убрать universe из строки Components:
+  Было:    Components: main restricted universe multiverse
+  Стало:   Components: main restricted multiverse
+
+Редактирование:
+  sudo nano /etc/apt/sources.list.d/ubuntu.sources
+
+После изменения обновить список пакетов:
+  sudo apt update

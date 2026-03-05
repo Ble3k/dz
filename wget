@@ -1,0 +1,4 @@
+dpkg -l | grep wget
+
+Точное название установленного пакета: wget
+Полная строка: ii  wget  1.21.4-1ubuntu4.1  arm64  retrieves files from the web

@@ -1,0 +1,7 @@
+Поиск пакета:
+apt search jquery | grep jush
+
+Найден пакет: libjs-jquery-jush
+
+Установка:
+sudo apt install libjs-jquery-jush
