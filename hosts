@@ -1,1 +1,2 @@
-sudo sh linux-vm/3/hosts.sh
+172.20.1.1 dev-gateway
+127.0.0.1 www.google.com
