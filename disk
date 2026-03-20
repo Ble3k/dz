@@ -1,0 +1,5 @@
+sudo fdisk /dev/vdb <<EOF
+d
+1
+w
+EOF
