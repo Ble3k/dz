@@ -1,0 +1,1 @@
+sudo mount -t tmpfs -o size=100m tmpfs /mnt/tmp-data
